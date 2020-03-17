@@ -124,7 +124,7 @@ public class Unit3
         if((j != k) || (k <= m))
         { System.out.println("Code 2: Hello");
         }
-        /*Both end up printing the same due to De Morgan's laws.*/
+        /*Both end up printing the same due to De Morgan's laws*/
     }
 
 }

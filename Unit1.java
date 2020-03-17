@@ -19,7 +19,10 @@ public class Unit1
         
     }
 
- 
+    public void main(String[] args)
+    {System.out.println("Unit 1");
+    }
+
     public void a()
     { System.out.println("Question 1.3, Skill 2.A");
       System.out.println("I. 2/5%3 = " + (2/5%3)); 
