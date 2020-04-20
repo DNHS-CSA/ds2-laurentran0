@@ -61,6 +61,7 @@ public class Unit6
    
   public void c()
   {
+      System.out.println("\nQuestion 6.13, Skill 5.D");
       int[] values = {1, 3, -8, 0};  
       int index = 0; 
         while (values[index] >= 0)
