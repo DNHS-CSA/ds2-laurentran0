@@ -26,14 +26,16 @@ public class Unit7Q18
                 int temp = elements[j];
                 elements[j] = elements[minIndex];
                 elements[minIndex] = temp;   // line 19
+                System.out.println(temp);
+
             }
-        }
+        }       
     }
     
     public static void methodA()
     {
         int[] arr = {30, 40, 10, 50, 20};
-        selectionSort(arr);
+        selectionSort(arr);        
     }
     /*The line executes itself every single time an element is swapped into their correct position 
        in the array. Numbers will be swapped 3 times, and so line 19 will execute 3 times as a 

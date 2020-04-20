@@ -18,6 +18,8 @@ public class Unit7Q16
             {
                 elements[possibleIndex] = elements[possibleIndex - 1];
                 possibleIndex--;   // line 10
+                System.out.println(possibleIndex);
+
             }
             elements[possibleIndex] = temp;
         }

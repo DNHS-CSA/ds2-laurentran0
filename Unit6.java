@@ -41,15 +41,11 @@ public class Unit6
      for (int k = 1; k < values.length; k++)
 
      {
-
         if (values[k] > maximum)
-
         {
-
             maximum = values[k];
 
         }
-
      }
     System.out.println(maximum);  
     /*This works because you can compare as the loop traverses through the array, it will compare
@@ -65,11 +61,11 @@ public class Unit6
       int[] values = {1, 3, -8, 0};  
       int index = 0; 
         while (values[index] >= 0)
-    {
+        {
 
-        index++;
+         index++;
 
-    }
+        }
     System.out.println(index);
     /*There has to be a negative integer in the array because if there isn't, then the loop
        will continue to evaluate past the array's index leading to an exception. So, at least 
