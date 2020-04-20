@@ -58,7 +58,7 @@ public class Unit6
        the previously set maximum, a new max will be set until it finishes going through the 
        entire array. Once it's finished, the maximum will be the largest value in the array*/
   }
-  
+   
   public void c()
   {
       int[] values = {1, 3, -8, 0};  
