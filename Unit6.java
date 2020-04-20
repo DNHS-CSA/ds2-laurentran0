@@ -62,7 +62,7 @@ public class Unit6
   public void c()
   {
       int[] values = {1, 3, -8, 0};  
-      int index = 0;
+      int index = 0; 
         while (values[index] >= 0)
     {
 
